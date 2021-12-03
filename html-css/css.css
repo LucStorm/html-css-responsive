@@ -1,0 +1,144 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+body{
+  
+  
+  background: linear-gradient(90deg, rgb(117, 98, 228),rgb(226, 112, 201) );
+}
+#container{ /* DIV PAI*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  width: 100%;
+  height: 100%;
+}
+.form{
+  background-color: rgb(255, 253, 249);
+  padding: 6rem 6rem 5rem 5rem;
+  width: 300px;
+  border-radius: 10px 0px 0px 10px;
+}
+.purple-container{
+  background-color: rgb(136, 40, 233);
+  padding: 6rem 6rem 5rem 5rem;
+  width: 500px;
+  height: 485px;
+  border-radius: 0px 10px 10px 0px;
+}
+h1{
+  font-size: 35px;
+  color: rgb(46, 46, 46);
+  margin-bottom: 20px;
+}
+
+/* primeiro paragrafo*/
+p{
+  color: rgb(61, 61, 61);
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+.p{ /* 1° e 2° paragrafo*/
+  color: rgb(61, 61, 61);
+  font-weight: 600;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+#btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: rgb(105, 10, 200);
+  border-radius: 3px;
+  font-weight: 600;
+  width: 300px;
+  height: 40px;
+  border: 2px solid #8411f0;
+
+}
+#btn:hover{
+  border-color: rgb(136, 40, 233);
+  background-color: rgb(136, 40, 233);
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  font-weight: 600;
+  width: 300px;
+  height: 40px;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+img{
+  
+  width: 14px;
+  margin-right: 10px;
+  
+}
+
+input{
+  background-image: url('73756.png');
+}
+
+input{
+display: flex;
+align-items: center;
+justify-content: center;
+
+  border: 2px solid #8411f0;
+  border-radius: 3px;
+  background-color: #fff;
+  color: rgb(61, 61, 61);
+  border-radius: 3px;
+  font-weight: 600;
+  padding: 10px 70px;
+  text-align: center;
+}
+
+span{
+  color: rgb(136, 40, 233);
+}
+
+
+#btn2{
+  background-color: rgb(136, 40, 233);
+  color: #fff;
+  border-radius: 3px;
+  padding: 10px 125px;
+  margin-top: 20px;
+  border: 1px solid rgb(136, 40, 233)
+}
+#btn2:hover{
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  transition: 0.2s;
+  color: rgb(105, 10, 200);
+
+  cursor: pointer;
+}
+
+.login{
+  text-decoration: none;
+}
+/* Responsividade celular */
+
+@media (max-width: 1195px){
+  .purple-container{
+    display: none;
+  }
+  .form{
+    border-radius: 10px;
+  }
+} 
